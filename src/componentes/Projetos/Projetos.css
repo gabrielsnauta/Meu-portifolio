@@ -83,15 +83,16 @@
   width: 70px;
   position: absolute;
   top: -80px;
+  transform: translateY(0);
 
-  transition-property: width top;
+  transition-property: width transform;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
 }
 
 .projetos-ferramentas div:hover img {
   width: 5rem;
-  top: 6.25rem;
+  transform: translateY(-16px);
 }
 
 .projetos-novidades {
@@ -114,5 +115,6 @@
 @media (max-width: 580px) {
   .projetos {
     top: 1850px;
+    left: 30px;
   }
 }

@@ -144,6 +144,7 @@
 
 .banner h5 {
   font-weight: 100;
+  width: 500px;
   font-size: 80px;
 
   transition-property: font-size;
@@ -294,6 +295,6 @@
   }
 
   .banner-eu {
-    transform: translateX(-1900px);
+    transform: translateX(-1700px);
   }
 }
