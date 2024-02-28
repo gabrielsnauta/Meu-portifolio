@@ -159,7 +159,7 @@
   font-weight: normal;
   font-size: 120px;
   position: absolute;
-  top: 74px;
+  top: 4.625rem;
   left: -3px;
 
   transition-property: font-size top;
@@ -241,6 +241,31 @@
   .img-noite {
     background: linear-gradient(to left, #fdfdfd00 0%, #aaaaaa 100%);
   }
+
+  .contato {
+    top: 12px;
+    left: 20px;
+    z-index: 5;
+  }
+
+  .contato div {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .contato-linha-dia {
+    width: 0;
+    height: 0;
+  }
+
+  .contato-linha-noite {
+    width: 0;
+    height: 0;
+  }
+
+  .contato img {
+    width: 2.2rem;
+  }
 }
 
 @media (max-width: 750px) {
@@ -265,6 +290,10 @@
 
 @media (max-width: 580px) {
   .banner-conteudo {
-    margin: 180% 0 0 30px;
+    margin: 1000px 0 0 30px;
+  }
+
+  .banner-eu {
+    transform: translateX(-1900px);
   }
 }
