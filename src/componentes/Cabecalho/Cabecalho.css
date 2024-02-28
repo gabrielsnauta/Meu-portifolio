@@ -37,3 +37,18 @@
 .icone-dn {
   width: 2.1rem;
 }
+
+@media (max-width: 580px) {
+  .cabecalho {
+    padding: 1.7rem 0;
+  }
+
+  .cabecalho div {
+    font-size: 2rem;
+  }
+
+  .icone-dn {
+    width: 3.3rem;
+    transform: translateY(6px);
+  }
+}

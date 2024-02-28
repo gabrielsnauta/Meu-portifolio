@@ -296,5 +296,14 @@
 
   .banner-eu {
     transform: translateX(-1700px);
+    height: 120%;
+  }
+
+  .contato img {
+    width: 3.4rem;
+  }
+
+  .contato {
+    top: 30px;
   }
 }
