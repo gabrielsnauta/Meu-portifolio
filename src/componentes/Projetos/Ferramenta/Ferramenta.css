@@ -1,0 +1,13 @@
+.ferramentas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ferramentas img {
+  width: 70px;
+}
+
+.ferramentas:hover img {
+  width: 80px;
+}

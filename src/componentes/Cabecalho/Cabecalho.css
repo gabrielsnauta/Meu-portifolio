@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+
+.cabecalho {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 5;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.cabe-dia {
+  background-color: rgba(26, 26, 26, 0.8);
+  color: rgb(255, 255, 255);
+}
+.cabe-noite {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.cabecalho div {
+  display: flex;
+  gap: 40px;
+  margin: 0 0 0 1720px;
+}
+
+.cabecalho div a:hover {
+  text-decoration-line: underline;
+}
+
+.icone-dn {
+  width: 30px;
+  margin: 0 47px 0 0;
+}

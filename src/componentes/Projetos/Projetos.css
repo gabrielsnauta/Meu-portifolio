@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1170px;
+  left: 70px;
+  z-index: 1;
+  width: 1002px;
+}
+
+.projetos-dia {
+  color: black;
+}
+.projetos-noite {
+  color: white;
+}
+
+.projetos-titulo {
+  font-family: "Aldrich", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 0 18px 0;
+}
+
+.projetos-descricao {
+  width: 100%;
+  font-family: "Aldrich", sans-serif;
+  font-size: 30px;
+  margin: 20px 0 90px 0;
+}
+
+.projetos-descricao-2 {
+  width: 100%;
+  font-family: "Aldrich", sans-serif;
+  font-size: 30px;
+  margin: 60px 0 110px 0;
+}
+
+.projetos-conteudo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 60px 0;
+
+  gap: 13px;
+}
+
+.projetos-cima {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 13px;
+}
+
+.projetos-ferramentas {
+  border: solid 2px rgba(255, 255, 255, 0.6);
+  background-color: #17181c54;
+  display: flex;
+  height: 230px;
+
+  gap: 80px;
+  padding: 20px 50px;
+  font-family: "Aldrich", sans-serif;
+}
+
+.projetos-ferramentas div {
+  margin: 80px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.projetos-ferramentas section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.projetos-ferramentas img {
+  width: 70px;
+  position: absolute;
+  top: -80px;
+
+  transition-property: width top;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.projetos-ferramentas div:hover img {
+  width: 80px;
+  top: -100px;
+}
+
+.projetos-novidades {
+  border: solid 2px rgba(255, 255, 255, 0.6);
+  background-color: #17181c54;
+  width: 100%;
+  font-family: "Aldrich", sans-serif;
+  padding: 10px;
+}
+.projetos-novidades p {
+}
+
+.projetos-linha {
+  height: 0.5px;
+  background-color: rgba(255, 255, 255, 0.6);
+}

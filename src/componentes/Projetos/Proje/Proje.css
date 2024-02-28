@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.proje {
+  display: flex;
+  width: 1000px;
+  font-family: "Aldrich", sans-serif;
+
+  /*background-color: #17181c54;*/
+  position: relative;
+}
+
+.proje-dia {
+  color: black;
+}
+
+.proje-noite {
+  color: white;
+}
+
+.proje-banner {
+  width: 380px;
+  position: absolute;
+  top: -1px;
+  left: 0;
+
+  transition-property: width top left;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.proje:hover .proje-banner {
+  width: 395px;
+  top: -5px;
+  left: -8px;
+}
+
+.proje-text {
+  margin: 0 0 0 381px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.proje-text-cima {
+  display: flex;
+  flex-direction: column;
+}
+
+.proje-text-cima h1 {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.proje:hover .proje-text-cima h1 {
+  text-decoration-line: underline;
+}
+
+.proje-text-cima h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.proje-text-cima h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 6px 0 10px;
+}
+
+.proje-text-cima div {
+  display: flex;
+  align-items: center;
+  font-family: "Aldrich", sans-serif;
+}
+
+.proje-carreg {
+  width: 21px;
+  transform: rotate(0deg);
+
+  transition-property: transform;
+  transition-duration: 5s;
+  transition-timing-function: ease-out;
+}
+
+.proje:hover .proje-carreg {
+  transform: rotate(-1000deg);
+}
+
+.proje-text-baixo {
+  margin: 10px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.proje-text-baixo p {
+  width: 100%;
+  font-family: "Aldrich", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: justify;
+  transform: translateY(-3px);
+}
+
+.proje-ferra {
+  margin: 12px 0 0 0;
+  display: flex;
+  gap: 15px;
+}
+
+.proje-ferra label {
+  padding: 2px 5px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.bt-dia label {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.bt-noite label {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
