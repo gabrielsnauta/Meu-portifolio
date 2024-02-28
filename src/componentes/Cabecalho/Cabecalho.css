@@ -4,8 +4,8 @@
   width: 100%;
   display: flex;
   position: fixed;
+  justify-content: flex-end;
   z-index: 5;
-  justify-content: space-between;
   align-items: center;
   padding: 12px 0;
   font-family: "Alegreya Sans SC", sans-serif;
@@ -22,8 +22,12 @@
 
 .cabecalho div {
   display: flex;
+  font-size: 1rem;
+  font-weight: 500;
   gap: 40px;
-  margin: 0 0 0 1720px;
+  margin: 0 16px 0 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .cabecalho div a:hover {
@@ -32,5 +36,4 @@
 
 .icone-dn {
   width: 30px;
-  margin: 0 47px 0 0;
 }

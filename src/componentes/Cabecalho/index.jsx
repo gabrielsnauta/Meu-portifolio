@@ -63,11 +63,10 @@ export default function Cabecalho() {
       <div>
         <a onClick={inicio}>Início</a>
         <a onClick={projetos}>Projetos</a>
-        <a>Sobre</a>
+        <a onClick={iconedn}>
+          <img className="icone-dn" src={icone} />
+        </a>
       </div>
-      <a onClick={iconedn}>
-        <img className="icone-dn" src={icone} />
-      </a>
     </header>
   );
 }

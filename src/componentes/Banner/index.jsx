@@ -36,7 +36,13 @@ export default function Banner() {
       ) : (
         <div className="banner-img img-noite" />
       )}
-      ;{dn === true ? <img src={noite} /> : <img src={dia} />};
+      ;
+      {dn === true ? (
+        <img className="banner-eu" src={noite} />
+      ) : (
+        <img className="banner-eu" src={dia} />
+      )}
+      ;
       <div className="contato">
         <div>
           <a>
